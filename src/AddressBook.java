@@ -27,10 +27,7 @@ public class AddressBook {
         return null;
     }
 
-    public BuddyInfo getBuddy(int x){
-       return Buddies.get(x);
 
-    }
 
     public static void main(String[] args){
         BuddyInfo Buddy1 = new BuddyInfo("Homer", "Ottawa", "613-260-7222");
